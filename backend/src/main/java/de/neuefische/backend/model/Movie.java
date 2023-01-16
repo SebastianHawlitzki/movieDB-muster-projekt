@@ -7,7 +7,7 @@ public class Movie {
     private final String id;
     private final String title;
     private final String posterUrl;
-    private final int year;
+    private final String year;
 
 
 }
