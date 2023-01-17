@@ -1,13 +1,17 @@
 package de.neuefische.backend.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Movie {
-    private final String id;
-    private final String title;
-    private final String posterUrl;
-    private final String year;
+    private String id;
+    private String title;
+    private String posterUrl;
+    private String year;
 
 
 }
